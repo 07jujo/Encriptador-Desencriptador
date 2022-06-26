@@ -1,0 +1,182 @@
+body {
+	margin: 1%;
+	padding: 0px;
+
+}
+
+.centro {
+	margin: auto;
+	width: 960px;
+	height: 650px;
+	padding: 5px;
+	background: #E5E5E5;
+	border: none;
+}
+
+.logo {
+	display: inline;
+	width: 100%;
+	float: left;
+
+}
+
+.img1 {
+	padding: 10px 2px 2px 20px;
+	display: inline;
+}
+
+
+.entrada {
+	float: left;
+	width: 50%;
+	height: 60%;
+	border-radius: 10px;
+	margin: 0 0 0 70px;
+
+
+
+}
+
+#intext {
+	display: block;
+	float: left;
+	margin: 15px 0 15px 15px;
+	color: #0A3871;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background: #E5E5E5;
+	padding: 10px 5px 5px 20px;
+	resize: none;
+
+}
+
+.salida {
+	float: right;
+	width: 30%;
+	height: auto;
+	margin-right: 3%;
+	border-radius: 15px;
+	/*display: inline;*/
+	border-style: none;
+	background-color: #FFFFFF;
+}
+
+.mune {
+	display: none;
+	width: 100%;
+	height: auto;
+	margin-right: 3%;
+	border: none;
+	display: inline;
+
+}
+
+#nm1 {
+
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.salida #outtext {
+	display: block;
+	float: left;
+	margin: 15px 0 15px 15px;
+	color: #0A3871;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	background: #FFFFFF;
+	padding: 10px 5px 5px 10px;
+	text-align: center;
+	resize: none;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	/* or 36px */
+
+
+	/* Gray/gray-400 */
+
+	color: #495057;
+
+}
+
+.cop {
+	display: none;
+
+}
+
+.salida #copyy {
+	padding: 5px 25px 5px 25px;
+	width: 50%;
+	height: auto;
+	border-radius: 25px;
+	font-size: 20px;
+	font-family: Copperplate;
+	margin-left: 23%;
+	margin-top: 76%;
+
+
+}
+
+.botones {
+	float: left;
+	width: 50%;
+	margin: 0 0 0 70px;
+
+}
+
+p {
+	margin-left: 13%;
+	
+}
+
+.encrypt {
+	padding: 5px 17px 5px 17px;
+	width: 35%;
+	height: auto;
+	border-radius: 18px;
+	margin-left: 10%;
+	font-size: 20px;
+	font-family: Copperplate;
+	background-color: #0A3871;
+	color: #FFFFFF;
+
+}
+
+.decrypt {
+	padding: 5px 17px 5px 17px;
+	width: 35%;
+	border-radius: 18px;
+	margin-left: 5%;
+	font-size: 20px;
+	font-family: Copperplate;
+	background-color: #D8DFE8;
+	color: #0A3871;
+
+}
+
+.pie-de-pagina{
+	margin: auto;
+	width: 965px;
+	height: 56px;
+	padding: 1px 0px 1px 0px; 
+	background-color: #161f44;
+	border-radius: 2%;
+	
+
+}
+h6{
+	margin-top: 2%;
+	text-align: center;
+	font-size: 12px;
+	color: #D8DFE8;
+	font-family: 'Inter';
+	font-style: normal;
+
+}

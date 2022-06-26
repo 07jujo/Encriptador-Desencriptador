@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+	
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style-c.css">
+		
+		<title>Encriptador</title>
+	</head>
+	<body>
+		<main>
+			<div class="centro">
+
+				<div >
+					<img src="imagenes/logo.png" class="img1">
+					<h1></h1>
+				</div>
+				<!--esta parte es para la entrada del mensaje-->
+
+				<div class="entrada">
+					<textarea type="text" id="intext" cols="40" rows="15" placeholder="Ingrese el texto aqui"></textarea>
+					
+				</div>
+
+				<!--esta parte es para la salida del mensaje-->
+				
+				<section class="salida">
+					<div class="ocultar">
+						<img src="imagenes/muneco.png" class="mune">
+						<h3 id="nm1">Ningún mensaje fue encontrado</h3>
+					</div>
+
+					
+					<textarea type="" id="outtext" cols="20" rows="5" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+					<button type="button" id="copyy" class="cop" onclick="copyToClipBoard()">Copiar</button>
+					
+				</section>
+				
+
+				<div class="botones">
+					<p>Solo minusculas y sin acentos</p>
+					<button type="button" class="encrypt" onclick="encriptar()" >Encriptar</button>
+					<button type="button" class="decrypt" onclick="dencriptar()" >Desencriptar</button>
+				</div>	
+				
+
+			</div>
+			
+			
+			
+
+	
+			<script src="script.js"></script>
+
+		</main>
+		<footer class="pie-de-pagina">
+			<h6>© Creado por Juan Familia</h6>
+
+		</footer>
+		
+	</body>
+
+	
+
+
+</html>
